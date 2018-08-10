@@ -1,4 +1,4 @@
-# Result
+# SafeResult
 
 Simple Wrapper for avoiding exception handling and validation/guard logic in your ASP.NET Core controllers.
 
