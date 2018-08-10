@@ -34,7 +34,7 @@ public class PostsController : Controller
     }
 
     [HttpDelete("/post/{id}")]
-    public IActionResult GetPost(int id)
+    public IActionResult DeletePost(int id)
     {
         Result<User> getUser = _userService.GetCurrentUser();
         if (getUser.Errored) // Unauthorized or challenge
